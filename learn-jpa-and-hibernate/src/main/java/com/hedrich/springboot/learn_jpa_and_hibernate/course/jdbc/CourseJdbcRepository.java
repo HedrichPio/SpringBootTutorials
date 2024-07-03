@@ -19,7 +19,7 @@ public class CourseJdbcRepository {
 			""";
 
 	private static String DELETE_QUERY = """
-				delete from course where id = ?;
+				delete from course where id = ?; 
 			""";
 
 	private static String SELECT_QUERY = """
